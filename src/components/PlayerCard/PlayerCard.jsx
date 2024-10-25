@@ -27,8 +27,8 @@ const PlayerCard = ({ player, handleSelectPlayers }) => {
                                 <h2>{bowling_style}</h2>
                             </div>
                             <div className='flex items-center justify-between mt-3 pb-3'>
-                                <h2 className='font-semibold flex items-center'>Price: <span><img className='w-[18px]' src="https://img.icons8.com/?size=256w&id=fQVp6cgYGxh3&format=png" alt="" /></span><span>{beating_price}</span></h2>
-                                <button onClick={() => { handleSelectPlayers(player)}} className="btn ring-offset-4 ring-2 ring-yellow-300 bg-yellow-200 px-8">Choose Player</button>
+                                <h2 className='font-semibold flex items-center'>Price: <span><img className='w-[18px]' src="https://img.icons8.com/?size=256w&id=fQVp6cgYGxh3&format=png" alt="" /></span><span className='lg:text-sm'>{beating_price}</span></h2>
+                                <button onClick={() => { handleSelectPlayers(player)}} className="btn ring-offset-2 ring-2 ring-yellow-300 bg-yellow-200 px-4 md:px-4 lg:px-2">Choose Player</button>
                             </div>
                         </div>
 
