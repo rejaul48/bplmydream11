@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.imgur.com/9YVo7Rv.jpeg",
+        "player_name": "Shakib Al Hasan",
+        "nationality": "Bangladesh",
+        "position": "Allrounder",
+        "batting_style": "Left hand bat",
+        "bowling_style": "Spinner",
+        "beating_price": 5500000
+    },
+    {
+        "id": 2,
+        "img": "https://i.imgur.com/BHnoabb.png",
+        "player_name": "Tamim Iqbal",
+        "nationality": "Bangladesh",
+        "position": "Batsman",
+        "batting_style": "Left hand bat",
+        "bowling_style": "None",
+        "beating_price": 5000000
+    },
+    {
+        "id": 3,
+        "img": "https://i.imgur.com/ucFDC8T.png",
+        "player_name": "Mashrafe Mortaza",
+        "nationality": "Bangladesh",
+        "position": "Allrounder",
+        "batting_style": "Right hand bat",
+        "bowling_style": "Pacer",
+        "beating_price": 3000000
+    },
+    {
+        "id": 4,
+        "img": "https://i.imgur.com/lFcaAKd.png",
+        "player_name": "Mushfiqur Rahim",
+        "nationality": "Bangladesh",
+        "position": "Batsman",
+        "batting_style": "Right hand bat",
+        "bowling_style": "None",
+        "beating_price": 3500000
+    },
+    {
+        "id": 5,
+        "img": "https://i.imgur.com/1O2X2m3.jpeg",
+        "player_name": "Mahmudullah Riyad",
+        "nationality": "Bangladesh",
+        "position": "Allrounder",
+        "batting_style": "Right hand bat",
+        "bowling_style": "Spinner",
+        "beating_price": 4500000
+    },
+    {
+        "id": 6,
+        "img": "https://i.imgur.com/SRuRM26.jpeg",
+        "player_name": "Mustafizur Rahman",
+        "nationality": "Bangladesh",
+        "position": "Bowler",
+        "batting_style": "Left hand bat",
+        "bowling_style": "Pacer",
+        "beating_price": 6500000
+    },
+    {
+        "id": 7,
+        "img": "https://i.imgur.com/V5qtMuU.jpeg",
+        "player_name": "Liton Das",
+        "nationality": "Bangladesh",
+        "position": "Batsman",
+        "batting_style": "Right hand bat",
+        "bowling_style": "None",
+        "beating_price": 4000000
+    },
+    {
+        "id": 8,
+        "img": "https://i.imgur.com/Znyha3S.jpeg",
+        "player_name": "Mehidy Hasan Miraz",
+        "nationality": "Bangladesh",
+        "position": "Allrounder",
+        "batting_style": "Right hand bat",
+        "bowling_style": "Spinner",
+        "beating_price": 3500000
+    },
+    {
+        "id": 9,
+        "img": "https://i.imgur.com/LhE3dsq.jpeg",
+        "player_name": "Rishad Hossain",
+        "nationality": "Bangladesh",
+        "position": "Allrounder",
+        "batting_style": "Left hand bat",
+        "bowling_style": "Leg Spinner",
+        "beating_price": 4800000
+    },
+    {
+        "id": 10,
+        "img": "https://i.imgur.com/kvPkRBS.jpeg",
+        "player_name": "Taskin Ahmed",
+        "nationality": "Bangladesh",
+        "position": "Bowler",
+        "batting_style": "Right hand bat",
+        "bowling_style": "Pacer",
+        "beating_price": 8000000
+    },
+    {
+        "id": 11,
+        "img": "https://i.imgur.com/TxnaNTt.jpeg",
+        "player_name": "Tanzim Sakib",
+        "nationality": "Bangladesh",
+        "position": "Bowler",
+        "batting_style": "Left hand bat",
+        "bowling_style": "Pacer",
+        "beating_price": 6500000
+    },
+    {
+        "id": 12,
+        "img": "https://i.imgur.com/L993f3C.jpeg",
+        "player_name": "Ebadod Hossain",
+        "nationality": "Bangladesh",
+        "position": "Bowler",
+        "batting_style": "Right hand bat",
+        "bowling_style": "Pacer",
+        "beating_price": 3500000
+    }
+]
