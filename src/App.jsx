@@ -38,7 +38,7 @@ function App() {
       draggable: true,
       theme: "colored",
       transition: Bounce,
-      style: { color: "#000" },
+      style: { color: "white" },
     });
   };
 
@@ -54,6 +54,7 @@ function App() {
   // increase credit value when button clicked
   const handleClaimCredit = () => {
     setFreeCredit(freeCredit + 10000000)
+    showSuccessToast("Credit added to your account")
   }
   // handle toggle button with active when each button is clicked
   const handleToggleBtn = (status) => {
@@ -91,6 +92,9 @@ function App() {
     // set the data into another sate to control
     setSelectedPlayerInfo([...selectedPlayerInfo, player])
 
+    // player added toast alert
+    showSuccessToast(`${player.player_name} added your selected list`)
+
   }
 
   // handle delete button when is clicked
@@ -98,7 +102,7 @@ function App() {
     // find the player that we need to remove
     // const removePlayer = selectedPlayerInfo.find((remove) => remove.id === deletePlayer.id);
 
-    showSuccessToast("Player removed from selected list")
+    showSuccessToast(`${deletePlayer.player_name} removed from your selected list`)
 
     // update player list into selected fields
     const updatePlayer = selectedPlayerInfo.filter((update) => update.id !== deletePlayer.id);
@@ -128,7 +132,7 @@ function App() {
         selectPlayer={selectPlayer}
         handleSelectPlayers={handleSelectPlayers}
         selectedPlayerInfo={selectedPlayerInfo}
-        handleDeleteBtn={handleDeleteBtn} 
+        handleDeleteBtn={handleDeleteBtn}
 
 
       ></Main>
