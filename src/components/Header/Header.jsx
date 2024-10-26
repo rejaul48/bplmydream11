@@ -35,7 +35,7 @@ const Header = ({ freeCredit }) => {
                         <a><img className='w-[65px] md:w-[85px]' src="logo.png" alt="" /></a>
                     </div>
 
-                    <div className="navbar-center hidden lg:flex">
+                    <div className="navbar-end mr-4 w-full hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-lg">
                             <li><a>Home</a></li>
                             <li><a>Fixture</a></li>
@@ -44,9 +44,9 @@ const Header = ({ freeCredit }) => {
                         </ul>
                     </div>
 
-                    <div className="navbar-end">
+                    <div className="navbar-end w-full lg:w-6/12 h-auto">
 
-                        <a className="border-2 border-gray-200 rounded-lg py-2 px-2 flex items-center gap-2 text-xs md:text-lg"><span className='md:font-bold text-xs md:text-lg'>{freeCredit}</span> Coin <span><img className='w-[25px]' src="https://img.icons8.com/?size=48&id=OFHwDWASQWmX&format=png" alt="" /></span></a>
+                        <a className="border-2 border-gray-200 rounded-lg py-2 md:py-3 px-4 flex items-center gap-2 text-xs md:text-lg"><span className='md:font-bold text-xs md:text-lg'>{freeCredit}</span> Coin <span><img className='w-8 md:w-8 lg:w-10 xl:w-8' src="https://img.icons8.com/?size=48&id=OFHwDWASQWmX&format=png" alt="" /></span></a>
                     </div>
                 </div>
             </header>
