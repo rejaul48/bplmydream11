@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="footer_menu grid grid-cols-1 gap-12 md:gap-0 md:grid-cols-2 lg:grid-cols-3 text-white">
                         <div>
                             <h2 className='text-2xl font-semibold'>About Us</h2>
-                            <p className='mt-2 w-3/5 text-gray-400'>We are a passionate team dedicated to providing the best services to our customers.</p>
+                            <p className='mt-2 w-4/5 md:w-3/5 text-gray-400'>We are a passionate team dedicated to providing the best services to our customers.</p>
                         </div>
                         <div >
                             <h2 className='text-2xl font-semibold'>Quick Links</h2>
@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
 
                     <div className='copyright text-white text-center mt-2 pb-5'>
-                            <p>all &copy;copyright are reserved by <a className='text-yellow-200' href="https://facebook.com/mrreja.me" target='_blank'>Rejaul Islam</a></p>
+                        <p>all &copy;copyright are reserved by <a className='text-yellow-200' href="https://facebook.com/mrreja.me" target='_blank'>Rejaul Islam</a></p>
                     </div>
 
                 </section>
